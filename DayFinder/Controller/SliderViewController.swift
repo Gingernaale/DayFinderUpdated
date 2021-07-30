@@ -20,10 +20,7 @@ class SliderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Find number"
-        
-        randomNum = Int(arc4random_uniform(11))
-        print(randomNum)
-        numLabel.text = "Find \(randomNum)"
+        starter()
     }
     
     @IBAction func checkVal(_ sender: Any) {
@@ -41,11 +38,16 @@ class SliderViewController: UIViewController {
     
     @IBAction func retryTapped(_ sender: Any) {
         
+        starter()
         retry.isHidden = true
-        randomNum = Int(arc4random_uniform(11))
-        print(randomNum)
-        numLabel.text = "Find \(randomNum)"
         result.text = "Go on!"
     }
     
+    func starter() {
+        randomNum = Int(arc4random_uniform(11))
+        print(randomNum)
+        numLabel.text = "Find \(randomNum)"
+    }
 }
+
+
