@@ -27,7 +27,7 @@ class AppearenceViewController: UIViewController {
     }
     
     func setLabelText(){
-        var text = "Unable to specify IU style"
+        var text = "Unable to specify UI style"
         if self.traitCollection.userInterfaceStyle == .dark{
             text = "Dark Mode is On\nGo to settings if you want\nto change to Light Mode."
         }else{
