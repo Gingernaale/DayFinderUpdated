@@ -15,7 +15,6 @@
 		68E7060526AF1380005A5FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E7060326AF1380005A5FE0 /* LaunchScreen.storyboard */; };
 		68E7061226B1BB7F005A5FE0 /* AppearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E7061126B1BB7F005A5FE0 /* AppearenceViewController.swift */; };
 		68E7061426B1BCA9005A5FE0 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E7061326B1BCA9005A5FE0 /* InfoViewController.swift */; };
-		68E7061726B1C148005A5FE0 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E7061626B1C148005A5FE0 /* Extention.swift */; };
 		7D6E7E9926B320E600F8D591 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E7E9826B320E600F8D591 /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		68E7060626AF1380005A5FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E7061126B1BB7F005A5FE0 /* AppearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceViewController.swift; sourceTree = "<group>"; };
 		68E7061326B1BCA9005A5FE0 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		68E7061626B1C148005A5FE0 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		7D6E7E9826B320E600F8D591 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 		68E705F726AF137F005A5FE0 /* DayFinder */ = {
 			isa = PBXGroup;
 			children = (
-				68E7061526B1C130005A5FE0 /* Extensions */,
 				68E7060C26AF153D005A5FE0 /* AppDelegate */,
 				68E7060D26AF154A005A5FE0 /* Controller */,
 				68E7060E26AF1556005A5FE0 /* View */,
@@ -101,14 +98,6 @@
 				68E7060326AF1380005A5FE0 /* LaunchScreen.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		68E7061526B1C130005A5FE0 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				68E7061626B1C148005A5FE0 /* Extention.swift */,
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +175,6 @@
 				68E705FD26AF137F005A5FE0 /* ViewController.swift in Sources */,
 				68E705F926AF137F005A5FE0 /* AppDelegate.swift in Sources */,
 				68E705FB26AF137F005A5FE0 /* SceneDelegate.swift in Sources */,
-				68E7061726B1C148005A5FE0 /* Extention.swift in Sources */,
 				68E7061426B1BCA9005A5FE0 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
